@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://bray2sick.github.io/sitemap.xml

@@ -1,0 +1,25 @@
+@use "../utils/variables" as *;
+
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Geist Sans", sans-serif;
+    line-height: 1.6;
+    background-color: $bg-gray-100;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
