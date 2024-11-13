@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Test directory
+test/
+
+# Source maps
+css/*css.map
+
+# IDE specific files
+.vscode/
