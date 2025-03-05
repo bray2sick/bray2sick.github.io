@@ -1,0 +1,4 @@
+Contact: mailto:braydonpettit24@outlook.com
+Expires: 2025-07-23T14:00:00.000Z
+Preferred-Languages: en
+Canonical: https://bray2sick.github.io/.well-known/security.txt

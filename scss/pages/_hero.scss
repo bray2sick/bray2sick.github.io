@@ -1,0 +1,19 @@
+@use '../utils/variables' as *;
+
+.hero {
+  color: $text-gray-900;
+  text-align: center;
+  padding-top: 6.25em;
+
+  h2 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0em;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: $text-gray-600;
+  }
+}

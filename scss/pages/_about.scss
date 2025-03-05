@@ -1,0 +1,5 @@
+@use '../utils/variables' as *;
+
+p {
+  color: $text-gray-700;
+}

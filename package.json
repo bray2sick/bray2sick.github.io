@@ -1,0 +1,16 @@
+{
+  "name": "bray2sick.github.io",
+  "version": "1.0.0",
+  "homepage": "https://bray2sick.github.io",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/main.scss css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.80.6"
+  }
+}

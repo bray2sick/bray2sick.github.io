@@ -1,0 +1,73 @@
+@use '../utils/variables' as *;
+header {
+  background-color: #fff;
+  color: $text-gray-800;
+  padding: 1.25em 0;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+      color: $text-gray-800;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin-left: 1em;
+
+        a {
+          text-decoration: none;
+          transition: color 150ms ease-in-out;
+          color: $text-gray-600;
+
+          &:hover {
+            color: $text-gray-900;
+          }
+        }
+      }
+    }
+  }
+
+  .menu-icons {
+    display: none;
+  }
+
+  @media (max-width: 430px) {
+    nav {
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        li {
+          margin: 0 0.5em;
+        }
+      }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      margin-bottom: 0.625em;
+    }
+  }
+}

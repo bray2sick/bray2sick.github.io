@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Development: Braydon Pettit
+  Site: https://bray2sick.github.io/
+  Location: Hobart, Australia
+
+/* THANKS */
+  TasTAFE
+  HTML5Boilerplate
+  Normalize.css
+  Eric A. Meyer
+  You, for reading this.
+

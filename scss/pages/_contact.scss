@@ -1,0 +1,47 @@
+@use '../utils/variables' as *;
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+
+  .form-group {
+    margin-bottom: 1.25em;
+
+    label {
+      display: block;
+      margin-bottom: 0.313em;
+      font-weight: 600;
+      color: $text-gray-700;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.625em;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+  }
+}
+
+#result {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 90%;
+  padding: 0.625em 1.25em;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}

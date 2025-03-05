@@ -1,0 +1,26 @@
+@use '../utils/variables' as *;
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 1em 1.25em;
+    margin: 8px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+    svg {
+      width: 48px;
+      height: 48px;
+      shape-rendering: auto;
+    }
+  }
+}
